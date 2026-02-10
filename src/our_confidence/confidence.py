@@ -193,7 +193,7 @@ class DimensionalConfidence:
         """
         if not self.dimensions:
             return
-        from oro_confidence.dimension_registry import get_registry
+        from our_confidence.dimension_registry import get_registry
 
         registry = get_registry()
         schema = registry.get(self.schema)

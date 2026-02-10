@@ -8,7 +8,7 @@ optional inheritance, allowing domain-specific confidence models to
 build on shared foundations.
 
 Example:
-    >>> from oro_confidence.dimension_registry import get_registry
+    >>> from our_confidence.dimension_registry import get_registry
     >>> registry = get_registry()
     >>> schema = registry.get("v1.confidence.core")
     >>> result = registry.validate("v1.confidence.core", {"source_reliability": 0.8})

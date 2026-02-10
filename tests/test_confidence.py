@@ -2,7 +2,7 @@
 
 import pytest
 
-from oro_confidence import (
+from our_confidence import (
     DimensionalConfidence,
     aggregate_confidence,
     confidence_label,

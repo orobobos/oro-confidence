@@ -1,4 +1,4 @@
-"""Public interface for oro-confidence.
+"""Public interface for our-confidence.
 
 The primary public types are:
 - DimensionalConfidence: Multi-dimensional confidence for beliefs

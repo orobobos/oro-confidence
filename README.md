@@ -1,17 +1,17 @@
-# oro-confidence
+# our-confidence
 
 Dimensional confidence system for belief scoring. Part of the [ourochronos](https://github.com/ourochronos) ecosystem.
 
 ## Installation
 
 ```bash
-pip install oro-confidence
+pip install our-confidence
 ```
 
 ## Usage
 
 ```python
-from oro_confidence import DimensionalConfidence, ConfidenceDimension
+from our_confidence import DimensionalConfidence, ConfidenceDimension
 
 # Simple confidence
 conf = DimensionalConfidence.simple(0.8)
@@ -27,7 +27,7 @@ conf = DimensionalConfidence.full(
 )
 
 # Dimension registry for validation
-from oro_confidence import get_registry
+from our_confidence import get_registry
 registry = get_registry()
 result = registry.validate("v1.confidence.core", {"source_reliability": 0.8})
 ```

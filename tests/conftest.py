@@ -1,8 +1,8 @@
-"""Shared test fixtures for oro-confidence."""
+"""Shared test fixtures for our-confidence."""
 
 import pytest
 
-from oro_confidence.dimension_registry import reset_registry
+from our_confidence.dimension_registry import reset_registry
 
 
 def pytest_configure(config: pytest.Config) -> None:

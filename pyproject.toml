@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "oro-confidence"
+name = "our-confidence"
 version = "0.1.0"
 description = "Dimensional confidence system for belief scoring"
 readme = "README.md"
@@ -33,7 +33,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/oro_confidence"]
+packages = ["src/our_confidence"]
 
 [tool.ruff]
 target-version = "py311"
@@ -44,7 +44,7 @@ src = ["src", "tests"]
 select = ["E", "F", "I", "N", "W", "UP", "B", "C4"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["oro_confidence"]
+known-first-party = ["our_confidence"]
 
 [tool.mypy]
 python_version = "3.11"
@@ -64,7 +64,7 @@ markers = [
 
 [tool.coverage.run]
 branch = true
-source = ["src/oro_confidence"]
+source = ["src/our_confidence"]
 
 [tool.coverage.report]
 show_missing = true

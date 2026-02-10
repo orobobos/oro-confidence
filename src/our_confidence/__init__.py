@@ -1,4 +1,4 @@
-"""oro-confidence — Dimensional confidence system for belief scoring."""
+"""our-confidence — Dimensional confidence system for belief scoring."""
 
 __version__ = "0.1.0"
 

@@ -2,7 +2,7 @@
 
 import pytest
 
-from oro_confidence import (
+from our_confidence import (
     DimensionRegistry,
     DimensionSchema,
     get_registry,
