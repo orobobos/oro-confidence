@@ -1,6 +1,6 @@
 # oro-confidence
 
-Dimensional confidence system for belief scoring. Part of the [orobobos](https://github.com/orobobos) ecosystem.
+Dimensional confidence system for belief scoring. Part of the [ourochronos](https://github.com/ourochronos) ecosystem.
 
 ## Installation
 
