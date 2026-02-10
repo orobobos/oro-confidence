@@ -21,6 +21,10 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/ourochronos/our-confidence"
+Repository = "https://github.com/ourochronos/our-confidence"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
