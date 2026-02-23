@@ -1,3 +1,10 @@
+# ⚠️ DEPRECATED
+
+This library has been vendored into [Valence](https://github.com/ourochronos/valence) as of v1.2.0.
+This repo is archived for reference only. All future development happens in the Valence monorepo.
+
+---
+
 # our-confidence
 
 Dimensional confidence system for belief scoring. Part of the [ourochronos](https://github.com/ourochronos) ecosystem.
